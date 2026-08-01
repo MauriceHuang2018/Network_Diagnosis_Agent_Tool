@@ -1,0 +1,12 @@
+dashscope==1.22.1
+jieba==0.42.1
+langchain==1.0.2
+langchain_community==0.4
+langchain_core==1.0.1
+# Pin langgraph stack: langgraph-checkpoint>=4.1 calls Reviver(allowed_objects=...),
+# which needs a newer langchain-core than 1.0.1. Hold at 4.0.0 to match the pinned core.
+langgraph==1.0.10
+langgraph_checkpoint==4.0.0
+langgraph_prebuilt==1.0.10
+langgraph_sdk==0.3.15
+chainlit
